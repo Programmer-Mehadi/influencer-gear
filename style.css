@@ -90,7 +90,6 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   justify-content: space-evenly;
-  align-items: center;
 }
 /* company list section end */
 /* popular collection start */
@@ -252,13 +251,16 @@ nav ul {
   .top-section .container {
     flex-direction: column-reverse;
   }
-  .company {
+  .company-list .company {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 20px;
   }
   .popular-collection .container {
     grid-template-columns: 1fr;
+  }
+  .product img {
+    width: 100%;
   }
   .join-now .container {
     flex-direction: column-reverse;
